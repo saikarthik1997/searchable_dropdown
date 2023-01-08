@@ -130,10 +130,10 @@ class SelectionWidgetState<T> extends State<SelectionWidget<T>> {
                           controller:
                               widget.popupProps.listViewProps.controller ??
                                   scrollController,
-                          thumbVisibility:
+                          /*     thumbVisibility:
                               widget.popupProps.scrollbarProps.thumbVisibility,
                           trackVisibility:
-                              widget.popupProps.scrollbarProps.trackVisibility,
+                              widget.popupProps.scrollbarProps.trackVisibility,*/
                           thickness: widget.popupProps.scrollbarProps.thickness,
                           radius: widget.popupProps.scrollbarProps.radius,
                           notificationPredicate: widget
@@ -159,12 +159,12 @@ class SelectionWidgetState<T> extends State<SelectionWidget<T>> {
                           shape: widget.popupProps.scrollbarProps.shape,
                           timeToFade:
                               widget.popupProps.scrollbarProps.timeToFade,
-                          trackBorderColor:
+                          /*   trackBorderColor:
                               widget.popupProps.scrollbarProps.trackBorderColor,
                           trackColor:
                               widget.popupProps.scrollbarProps.trackColor,
                           trackRadius:
-                              widget.popupProps.scrollbarProps.trackRadius,
+                              widget.popupProps.scrollbarProps.trackRadius,*/
                           child: ListView.builder(
                             controller:
                                 widget.popupProps.listViewProps.controller ??
